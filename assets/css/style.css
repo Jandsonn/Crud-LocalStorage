@@ -1,0 +1,21 @@
+body{
+    background-color: #A80700;
+}
+
+.secondary-content{
+    color:#A80700;
+}
+
+.hidden{
+    display: none;
+}
+
+.btn{
+
+    background-color: #A80700;
+    color: white;
+    opacity: 1;
+
+    
+}
+

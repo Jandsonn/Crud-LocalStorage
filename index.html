@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> 
+     
+    <link rel="stylesheet" href="./assets/css/style.css">
+     
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    
+    <title>ProjetoUdemy</title>
+
+</head>
+<body>
+    
+    <div class="row">
+        <div class="col s6 push-s3">
+            <div class="card">
+                <div class="card-content">
+                    
+                    <span class="card-title">Digite sua tarefa</span>
+                    <div class="input-field col s12">
+                        <input id="input-novo" placeholder="Novo Item" id="first_name" type="text" class="validate">
+                        <label for="first_name">Novo item</label>
+                    </div>
+                    
+                    <div id="editar" class="input-field col s12 hidden">
+                        <input id="input-editar" placeholder="Placeholder" id="first_name" type="text" class="validate">
+                        <label for="first_name">Editar</label>
+                        <button onclick ="editar()" class="btn">Editar</button>
+                    </div>
+
+                    <ul id="tarefas" class="collection"> 
+                       
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="./assets/js/services/database-services.js"></script> 
+    <script src="./assets/js/services/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
