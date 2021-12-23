@@ -1,9 +1,9 @@
 body{
-    background-color: #A80700;
+    background-color: #3e4c9b;
 }
 
 .secondary-content{
-    color:#A80700;
+    color:rgb(39, 133, 173);
 }
 
 .hidden{
@@ -12,7 +12,7 @@ body{
 
 .btn{
 
-    background-color: #A80700;
+    background-color:rgb(39, 133, 173);
     color: white;
     opacity: 1;
 
